@@ -9,7 +9,6 @@ const passport = require('passport');
 const localStrategy = require('./config/passport-local');
 const GoogleStrategy = require('./config/passport-google');
 const User = require('./models/user');
-const Noty = require('noty');
 
 let PORT;
 
